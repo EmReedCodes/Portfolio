@@ -16,7 +16,8 @@ module.exports = {
         'btn-hov-purp': "#30009C",
         'secondary-600': "#019592",
         'secondary-500': "#01A299",
-        'secondary-800': "#017374"
+        'secondary-800': "#017374",
+        'easter-egg': "#151127"
       }
 
     },

@@ -12,7 +12,11 @@ const Contact = () => {
       
     return (
         <section id="contact">
+            
             <div className="container px-5 py-10 lg:w-4/5 mx-auto bg-opacity-20">
+            <h1 className="sm:text-4xl text-center text-3xl font-medium title-font mb-4 text-white">
+            Contact Me
+          </h1>
                 <form onSubmit={handleSubmit}
                 
                 >
