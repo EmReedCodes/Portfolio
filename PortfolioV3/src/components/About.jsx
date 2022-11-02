@@ -1,4 +1,6 @@
 import React from "react";
+import { BsGithub } from 'react-icons/bs'
+import { IconContext } from 'react-icons';
 
 const About = () => {
     return ( 
@@ -13,12 +15,13 @@ const About = () => {
           <p className="mb-8 leading-relaxed">
             I enjoy coming up with ideas and turning them into something tangible with code. I've hidden a little easter egg on my portfolio be sure to let me know if you find it! 
           </p>
-          <div className="flex justify-center">
-            <a
-              href="#contact"
-              className="inline-flex text-white bg-btn-purp border-0 py-2 px-6 focus:outline-none hover:bg-btn-hov-purp rounded text-lg">
-              Contact
-            </a>
+              <div className="flex justify-center">
+              <a href="https://github.com/EmReedCodes" className="">
+            <IconContext.Provider value={{ className: "mx-auto inline-block w-10 h-10 mb-4" }}>
+                <BsGithub />
+              </IconContext.Provider>
+          </a>
+           
             <a
               href="#projects"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
@@ -32,7 +35,8 @@ const About = () => {
             className="object-cover object-center rounded"
             alt="hero"
             src="./mayberesizedcat.png"
-          />
+              />
+  
         </div>
       </div>
     </section>
