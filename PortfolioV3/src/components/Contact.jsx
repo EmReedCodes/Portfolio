@@ -54,7 +54,7 @@ const Contact = () => {
                       />
                     <button type="submit"
                         disabled={state.submitting}
-                    className="lg:w-fit w-full block py-2.5 px-5 mt-2 mb-2 mx-auto text-base text-white font-medium focus:outline-none bg-btn-purp rounded-lg border hover:bg-btn-hov-purp focus:z-10 focus:ring-4 focus:ring-gray-200"
+                    className="sm:w-fit w-full block py-2.5 px-5 mt-2 mb-2 mx-auto text-base text-white font-medium focus:outline-none bg-btn-purp rounded-lg border hover:bg-btn-hov-purp focus:z-10 focus:ring-4 focus:ring-gray-200"
                     >
                         Submit
                       </button>

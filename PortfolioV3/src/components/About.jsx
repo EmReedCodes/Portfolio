@@ -1,5 +1,5 @@
 import React from "react";
-import { BsGithub } from 'react-icons/bs'
+import { BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs'
 import { IconContext } from 'react-icons';
 
 const About = () => {
@@ -13,20 +13,29 @@ const About = () => {
             <br className="hidden lg:inline-block" />I love creating and coding with my cat.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I enjoy coming up with ideas and turning them into something tangible with code. I've hidden a little easter egg on my portfolio be sure to let me know if you find it! 
-          </p>
+            Outside of coding I enjoy playing video games, embroidery, and watching a good new series. I've hidden a little easter egg on my portfolio be sure to let me know if you find it! 
+              </p>
+              <span className="mb-2 ml-4">You can follow me on:</span>
               <div className="flex justify-center">
-              <a href="https://github.com/EmReedCodes" className="">
-            <IconContext.Provider value={{ className: "mx-auto inline-block w-10 h-10 mb-4" }}>
+                
+              <a href="https://github.com/EmReedCodes" alt="github">
+            <IconContext.Provider value={{ className: "ml-4 inline-flex w-9 h-9 hover:text-white" }}>
                 <BsGithub />
+              </IconContext.Provider>
+                </a>
+                <a href="https://www.linkedin.com/in/emilyjreed/" alt="linkedin">
+            <IconContext.Provider value={{ className: "ml-4 inline-flex w-9 h-9 text-btn-purp hover:text-btn-purp-light" }}>
+                <BsLinkedin />
+              </IconContext.Provider>
+                </a>
+               
+                <a href="https://twitter.com/EmReedCodes" alt="twitter">
+            <IconContext.Provider value={{ className: "ml-4 inline-flex w-9 h-9 hover:text-white" }}>
+                <BsTwitter />
               </IconContext.Provider>
           </a>
            
-            <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              Projects
-                </a>
+      
          
           </div>
         </div>

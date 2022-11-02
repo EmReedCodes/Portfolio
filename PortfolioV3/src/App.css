@@ -67,3 +67,9 @@ animationCat{
     background-position: -400px -1200px;
   }
 }
+
+@media (min-width:900px){
+  .need-height{
+    min-height: 20rem;
+  }
+}

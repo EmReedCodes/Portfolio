@@ -17,22 +17,7 @@ export const projects = [
       image: "./todoGroup.gif",
       link: "#",
   },
-  {
-    title: "Todo Celebration",
-    subtitle: "MVC EJS Express",
-    description:
-      "This was the first large group project I ever did. Learning to use git in production as a team was probably the biggest lesson I took with me from this.",
-    image: "./todoGroup.gif",
-    link: "#",
-  },
-  {
-    title: "Todo Celebration",
-    subtitle: "MVC EJS Express",
-    description:
-      "This was the first large group project I ever did. Learning to use git in production as a team was probably the biggest lesson I took with me from this.",
-    image: "./todoGroup.gif",
-    link: "#",
-},
+  
     
 ];
   

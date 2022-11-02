@@ -18,7 +18,7 @@ const Skills = () => {
   return (
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-20">
+        <div className="text-center mb-16">
         <IconContext.Provider value={{className:"mx-auto inline-block w-10 h-10 mb-4"}} >
             <BsFillLaptopFill />
             </IconContext.Provider>
@@ -26,14 +26,12 @@ const Skills = () => {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
+            If there is a skill I don't know yet that is not a problem I love learning. Here I've listed some of the more prominent skills I've used in my projects. The best way I've been able to add new skills to my list is by taking them apart and seeing how they fit. 
           </p>
          
         </div>
         <button onClick={() => showEgg()}>
-          <IconContext.Provider value={{ className: "mx-auto text-easter-egg inline-block w-10 h-10 m-2" }}>
+          <IconContext.Provider value={{ className: "mx-auto text-easter-egg inline-block w-12 h-12 m-2" }}>
         <IoIosPaw />
         </IconContext.Provider></button>
         {isShown &&
