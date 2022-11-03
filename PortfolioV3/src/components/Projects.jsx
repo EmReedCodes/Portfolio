@@ -60,7 +60,6 @@ import { useLayoutEffect, useRef, useState } from "react"
 
 const Projects = () => {
   return (
-  
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
@@ -78,7 +77,6 @@ const Projects = () => {
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project, idx) => (
-
             <a href={project.link} key={project.image} className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
                 <img
@@ -96,8 +94,7 @@ const Projects = () => {
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
               </div>
-</a>
-            
+            </a>
           ))}
         </div>
       </div>
