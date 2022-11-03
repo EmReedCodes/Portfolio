@@ -5,9 +5,10 @@ export const projects = [
       title: "Word Bank Demo",
       subtitle: "EJS MongoDB Express",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "This project started as a proof of concept for an idea I had. I wanted the user to be able to curate a list of words they struggle with and be able to hear the word as they practiced speaking.",
       image: "./WordBankDemo.gif",
-      link: "https://web-production-1077.up.railway.app/",
+    link: "https://web-production-1077.up.railway.app/",
+      codeLink: "https://github.com/EmReedCodes/TTS-3-app"
     },
     {
       title: "Todo Celebration",
@@ -15,7 +16,7 @@ export const projects = [
       description:
         "This was the first large group project I ever did. Learning to use git in production as a team was probably the biggest lesson I took with me from this.",
       image: "./todoGroup.gif",
-      link: "#",
+      link: "https://todo-celebrations.up.railway.app/",
   },
   
     

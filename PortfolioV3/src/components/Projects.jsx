@@ -60,6 +60,7 @@ import { useLayoutEffect, useRef, useState } from "react"
 
 const Projects = () => {
   return (
+  
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
@@ -75,17 +76,18 @@ const Projects = () => {
             solved a problem in my every day life, or were just really fun. I hope you enjoy them!
           </p>
         </div>
-        <div className="flex flex-wrap need-height -m-4">
+        <div className="flex flex-wrap -m-4">
           {projects.map((project, idx) => (
-            <a href={project.link} key={project.image} className="sm:w-1/2 need-height p-4">
-              <div className="flex relative min-h-full">
+
+            <a href={project.link} key={project.image} className="sm:w-1/2 w-100 p-4">
+              <div className="flex relative">
                 <img
                   alt={project.title}
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                <div className="sm:h-80 px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-secondary-500 mb-1">
                     {project.subtitle}
                   </h2>
                   <h1 className="title-font text-lg font-medium text-white mb-3">
@@ -94,10 +96,8 @@ const Projects = () => {
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
               </div>
-              {/* <button className="lg:w-fit w-full block py-2.5 px-5 mt-2 mb-2 mx-auto text-base text-white font-medium focus:outline-none bg-btn-purp rounded-lg border hover:bg-btn-hov-purp focus:z-10 focus:ring-4 focus:ring-gray-200">hello</button>
-              <button className="lg:w-fit w-full block py-2.5 px-5 mt-2 mb-2 mx-auto text-base text-white font-medium focus:outline-none bg-btn-purp rounded-lg border hover:bg-btn-hov-purp focus:z-10 focus:ring-4 focus:ring-gray-200">hello</button> */}
-              
-            </a>
+</a>
+            
           ))}
         </div>
       </div>

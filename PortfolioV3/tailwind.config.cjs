@@ -18,7 +18,10 @@ module.exports = {
         'secondary-600': "#019592",
         'secondary-500': "#01A299",
         'secondary-800': "#017374",
-        'easter-egg': "#001b3f"
+        'easter-egg': "#001c3a"
+      },
+      fontFamily: {
+        'lexend': ['Lexend', 'sans serif']
       }
 
     },

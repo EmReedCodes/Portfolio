@@ -68,8 +68,4 @@ animationCat{
   }
 }
 
-@media (min-width:900px){
-  .need-height{
-    min-height: 20rem;
-  }
-}
+
