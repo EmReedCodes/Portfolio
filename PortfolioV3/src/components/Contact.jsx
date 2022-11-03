@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <div className="container px-5 py-10 lg:w-4/5 mx-auto bg-opacity-20">
-          <IconContext.Provider value={{ className: "mx-auto block inline-block w-10 h-10 mb-4" }}>
+          <IconContext.Provider value={{ className: "mx-auto block w-10 h-10 mb-4" }}>
             <AiTwotoneMail />
           </IconContext.Provider>
         <h1 className="sm:text-4xl text-center text-3xl font-medium title-font mb-4 text-white">
