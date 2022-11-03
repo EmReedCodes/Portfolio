@@ -1,5 +1,7 @@
 import React from "react"
 import { useForm, ValidationError } from "@formspree/react"
+import { AiTwotoneMail } from 'react-icons/ai'
+import { IconContext } from "react-icons"
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("mpznyngl")
@@ -10,6 +12,9 @@ const Contact = () => {
   return (
     <section id="contact">
       <div className="container px-5 py-10 lg:w-4/5 mx-auto bg-opacity-20">
+          <IconContext.Provider value={{ className: "mx-auto block inline-block w-10 h-10 mb-4" }}>
+            <AiTwotoneMail />
+          </IconContext.Provider>
         <h1 className="sm:text-4xl text-center text-3xl font-medium title-font mb-4 text-white">
           Contact Me
         </h1>
@@ -43,7 +48,7 @@ const Contact = () => {
           <button
             type="submit"
             disabled={state.submitting}
-            className="sm:w-fit w-full block py-2.5 px-5 mt-2 mb-2 mx-auto text-base text-white font-medium focus:outline-none bg-secondary-800 rounded-lg border hover:bg-secondary-500 focus:z-10 focus:ring-4 focus:ring-gray-200"
+            className="sm:w-fit w-full block py-2.5 px-5 mt-2 mb-2 mx-auto text-base text-white font-medium focus:outline-none bg-secondary-800 rounded-lg hover:bg-secondary-500 focus:z-10 focus:ring-4 focus:ring-gray-200 outline-none"
           >
             Submit
           </button>

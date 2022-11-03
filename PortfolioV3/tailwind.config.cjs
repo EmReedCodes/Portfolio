@@ -10,11 +10,6 @@ module.exports = {
         'hero-pattern': "linear-gradient(to right, rgb(#41295a), rgb(#2f0743))",
       },
       colors: {
-        'purple-900': "#210330",
-        'dark-purp': "#220643",
-        'btn-purp': "#5600E8",
-        'btn-purp-light': '#7523ff',
-        'btn-hov-purp': "#30009C",
         'secondary-600': "#019592",
         'secondary-500': "#01A299",
         'secondary-800': "#017374",
