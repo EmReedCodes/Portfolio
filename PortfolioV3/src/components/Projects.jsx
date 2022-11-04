@@ -77,7 +77,7 @@ const Projects = () => {
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project, idx) => (
-            <a href={project.link} key={project.image} className="sm:w-1/2 w-100 p-4">
+            <a href={project.link} target="_blank" key={project.image} className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
                 <img
                   alt={project.title}

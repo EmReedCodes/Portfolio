@@ -13,7 +13,7 @@ module.exports = {
         'secondary-600': "#019592",
         'secondary-500': "#01A299",
         'secondary-800': "#017374",
-        'easter-egg': "#001c3a",
+        'easter-egg': "#001b64",
         'backround-proj': "#657d8988",
       },
       fontFamily: {
