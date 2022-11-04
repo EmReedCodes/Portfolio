@@ -17,7 +17,7 @@
 
 ## Description
 
-To use this website you can just input any words you'd like to practice into the word bank and it will display up to 10 words on the page and the rest will be stored in the database. Using the next button will bring back one of your words at random and you can repeat that word as often as you like until you are ready for the next. With the slider range you can speed up or slow a word down as you practice and improve. 
+This is my third iteration on a Portfolio. The first one I did rather early on in my coding days and I was just never quite happy with it. Once a little time had passed and I had some more skills I decided it was time for my ultimate "Me" portfolio. I am very happy being able to use React Vite and adding a bit of my own flair to it. You may wonder but if this is version 3 what happened to version 2? We don't talk about version 2. 
 
 ## Demo
 
