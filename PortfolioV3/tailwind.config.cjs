@@ -15,6 +15,7 @@ module.exports = {
         'secondary-800': "#017374",
         'easter-egg': "#001b64",
         'backround-proj': "#657d8988",
+        'text-color-proj': "#111827"
       },
       fontFamily: {
         'lexend': ['Lexend', 'sans serif']

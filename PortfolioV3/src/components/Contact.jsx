@@ -21,6 +21,7 @@ const Contact = () => {
         <form onSubmit={handleSubmit}>
           <label
             htmlFor="email"
+            aria-label="email"
             className="block lg:w-4/5 w-full mx-auto text-left mb-2 text-base font-semibold text-white"
           >
             Email Address
@@ -41,6 +42,7 @@ const Contact = () => {
           <textarea
             rows={7}
             id="message"
+            aria-label="message"
             name="message"
             className="lg:w-4/5 w-full p-2.5 text-base block mx-auto bg-gray-800 rounded-lg dark:bg-gray-700 text-white"
           />

@@ -19,14 +19,14 @@ const About = () => {
             </p>
             <span className="mb-2 ml-4">You can follow me on:</span>
             <div className="flex justify-center">
-              <a href="https://github.com/EmReedCodes" alt="github">
+              <a href="https://github.com/EmReedCodes" aria-label="link to Github">
                 <IconContext.Provider
                   value={{ className: "ml-4 inline-flex w-9 h-9 hover:text-white" }}
                 >
                   <BsGithub />
                 </IconContext.Provider>
               </a>
-              <a href="https://www.linkedin.com/in/emilyjreed/" alt="linkedin">
+              <a href="https://www.linkedin.com/in/emilyjreed/" aria-label="link to LinkedIn">
                 <IconContext.Provider
                   value={{ className: "ml-4 inline-flex w-9 h-9 hover:text-white" }}
                 >
@@ -34,7 +34,7 @@ const About = () => {
                 </IconContext.Provider>
               </a>
 
-              <a href="https://twitter.com/EmReedCodes" alt="twitter">
+              <a href="https://twitter.com/EmReedCodes" aria-label="link to Twitter">
                 <IconContext.Provider
                   value={{ className: "ml-4 inline-flex w-9 h-9 hover:text-white" }}
                 >

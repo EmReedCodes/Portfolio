@@ -57,7 +57,9 @@ import { useLayoutEffect, useRef, useState } from "react"
 
 // // style={{ height: dimensions + "px" }}
 // ref={targetRef}
-
+//    background: #657d8988;
+// backdrop-filter: blur(10px);
+// color: #111827;
 const Projects = () => {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
@@ -84,7 +86,7 @@ const Projects = () => {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={project.image}
                 />
-                <div className="sm:h-80 px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                <div className="sm:h-80 px-8 py-10 relative z-10 w-full border-4 text-text-color-proj bg-backround-proj backdrop-blur opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-secondary-500 mb-1">
                     {project.subtitle}
                   </h2>

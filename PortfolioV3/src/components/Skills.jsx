@@ -31,7 +31,7 @@ const Skills = () => {
             been able to add new skills to my list is by taking them apart and seeing how they fit.
           </p>
         </div>
-        <button onClick={() => showEgg()}>
+        <button aria-label="paw print" onClick={() => showEgg()}>
           <IconContext.Provider
             value={{ className: "mx-auto text-easter-egg inline-block w-12 h-12 m-2" }}
           >
