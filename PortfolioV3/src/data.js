@@ -14,7 +14,8 @@ export const projects = [
     description:
       "This was the first large group project I ever did. Learning to use git in production as a team was probably the biggest lesson I took with me from this.",
     image: "./todoGroup.gif",
-    link: "https://todo-celebrations.up.railway.app/"
+    link: "https://todo-celebrations.up.railway.app/",
+    codeLink:"https://github.com/EmReedCodes/todo-group-auth-local"
   }
 ]
 

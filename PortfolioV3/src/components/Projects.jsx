@@ -78,8 +78,11 @@ const Projects = () => {
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
+          
           {projects.map((project, idx) => (
-            <a href={project.link} target="_blank" key={project.image} className="sm:w-1/2 w-100 p-4">
+            <a href={project.link} aria-label="link to live site with overlay description" target="_blank" key={project.image} className="sm:w-1/2 w-100 p-4">
+              <a href={project.codeLink} aria-label="link to code" target="_blank" className="p-2 mb-1 hover:bg-gray-700 hover:text-white rounded">Code</a>
+              <a href={project.link} aria-label="link to site" target="_blank" className="border-l border-gray-700 p-2 hover:bg-gray-700 hover:text-white rounded">Live</a>
               <div className="flex relative">
                 <img
                   alt={project.title}
