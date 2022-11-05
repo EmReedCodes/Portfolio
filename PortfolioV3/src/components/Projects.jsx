@@ -60,6 +60,12 @@ import { useLayoutEffect, useRef, useState } from "react"
 //    background: #657d8988;
 // backdrop-filter: blur(10px);
 // color: #111827;
+
+
+  // {/* <a href={project.codeLink} aria-label="link to code" target="_blank" className="w-fit p-2 mb-1 hover:bg-gray-700 hover:text-white rounded">Code</a>
+  //             <div className="flex flex-wrap -m-4"> 
+  //          <a href={project.link} aria-label="link to site" target="_blank" className="block border-l border-gray-700 p-2 hover:bg-gray-700 hover:text-white rounded">Live</a> */}
+  
 const Projects = () => {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
@@ -77,15 +83,17 @@ const Projects = () => {
             solved a problem in my every day life, or were just really fun. I hope you enjoy them!
           </p>
         </div>
-       
-          
+        <div className="flex flex-wrap -m-4">
+         
+         
           {projects.map((project, idx) => (
-            <>
-              <a href={project.codeLink} aria-label="link to code" target="_blank" className="w-fit p-2 mb-1 hover:bg-gray-700 hover:text-white rounded">Code</a>
-              <div className="flex flex-wrap -m-4">
-              {/* <a href={project.link} aria-label="link to site" target="_blank" className="block border-l border-gray-700 p-2 hover:bg-gray-700 hover:text-white rounded">Live</a> */}
-            <a href={project.link} aria-label="link to live site with overlay description" target="_blank" key={project.image} className="sm:w-1/2 w-100 p-4">
-           
+            <a
+              href={project.link}
+              aria-label="link to live site with overlay description"
+              target="_blank"
+              key={project.image}
+              className="sm:w-1/2 w-100 p-4"
+            >
               <div className="flex relative">
                 <img
                   alt={project.title}
@@ -102,11 +110,9 @@ const Projects = () => {
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
               </div>
-                </a>
-                </div>
-              </>
+            </a>
           ))}
-      
+        </div>
       </div>
     </section>
   )
