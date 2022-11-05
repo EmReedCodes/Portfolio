@@ -5,7 +5,7 @@ export const projects = [
     description:
       "This project started as a proof of concept for an idea I had. I wanted the user to be able to curate a list of words they struggle with and be able to hear the word as they practiced speaking.",
     image: "./WordBankDemo.gif",
-    link: "https://web-production-1077.up.railway.app/",
+    link: "https://wordbankdemo.up.railway.app/",
     codeLink: "https://github.com/EmReedCodes/TTS-3-app"
   },
   {
