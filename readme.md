@@ -60,4 +60,4 @@ This is my third iteration on a Portfolio. The first one I did rather early on i
 
 Emily Reed- Emilyreed89@gmail.com
 
-Project Link: [https://github.com/emreedcodes/tts-3-app](https://www.emreedcodes.com/)
+Project Link: [https://www.emreedcodes.com/](https://www.emreedcodes.com/)
