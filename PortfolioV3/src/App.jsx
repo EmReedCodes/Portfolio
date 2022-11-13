@@ -9,7 +9,8 @@ import Skills from "./components/Skills";
 
 
 function App() {
-
+  console.log("Thanks for stopping by!")
+  console.log("Have a purrfect day. =^.^=")
   return (
     <main className="text-gray-400 bg-gray-900 body-font font-lexend">
     <Navbar />
