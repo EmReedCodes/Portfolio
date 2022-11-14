@@ -3,7 +3,7 @@ export const projects = [
     title: "Parrot",
     subtitle: "React Redux JWT MongoDB TTS STT",
     description:
-      "IN PROGRESS - This is a continued work in progress not yet live. Well over 100 hours in and my passion has not yet fizzled. Using text-to-speech and speech-to-text I've built a web app that can help those with speech disabilties gain more confidence while having fun.",
+      "IN PROGRESS - This is a continued work in progress not yet live. Well over 100 hours in and my passion has not yet fizzled. This web app that can help those with speech disabilties gain more confidence while having fun.",
     image: "./parrotResized.gif",
     link: "#",
     codeLink: "https://github.com/EmReedCodes/TTS-3-app"
@@ -21,7 +21,7 @@ export const projects = [
     title: "Todo Celebration",
     subtitle: "MVC EJS Express",
     description:
-      "I know, a Todo app but it's more the collaboration in this that was my big milestone. This was a group project with a team of 5. Learning to use git in production was probably the biggest lesson I took with me. It's not just the code but the communication in combining our unique styles to a cohesive end product.",
+      "I know, a Todo app but it's more the collaboration in this that was my big milestone. This was a group project with a team of 5 using git in production. It's not just the code but the communication in combining our unique styles to a cohesive end product.",
     image: "./todoGroup.gif",
     link: "https://todo-celebrations.up.railway.app/",
     codeLink:"https://github.com/EmReedCodes/todo-group-auth-local"
