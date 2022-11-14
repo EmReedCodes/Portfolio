@@ -6,7 +6,7 @@ export const projects = [
       "IN PROGRESS - This is a continued work in progress not yet live. Well over 100 hours in and my passion has not yet fizzled. This web app that can help those with speech disabilties gain more confidence while having fun.",
     image: "./parrotResized.gif",
     link: "#",
-    codeLink: "https://github.com/EmReedCodes/TTS-3-app"
+    codeLink: "https://github.com/EmReedCodes/parrot-app"
   },
   {
     title: "Word Bank Demo",
@@ -33,7 +33,7 @@ export const projects = [
       "This project was one of the first I ever did fetching API! Of course, I went for cat facts. A new world opened up after this project and I learned a lot about manipulating DOM elements.",
     image: "./CatAPIResized.gif",
     link: "https://catbreedstats.netlify.app/",
-    codeLink: "https://github.com/EmReedCodes/TTS-3-app"
+    codeLink: "https://github.com/EmReedCodes/Cat-Breeds-Info"
   },
 ]
 

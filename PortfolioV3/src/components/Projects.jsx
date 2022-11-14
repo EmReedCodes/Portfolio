@@ -61,11 +61,12 @@ import { useLayoutEffect, useRef, useState } from "react"
 // backdrop-filter: blur(10px);
 // color: #111827;
 
+// {/* <a href={project.codeLink} aria-label="link to code" target="_blank" className="w-fit p-2 mb-1 hover:bg-gray-700 hover:text-white rounded">Code</a>
+//             <div className="flex flex-wrap -m-4">
+//          <a href={project.link} aria-label="link to site" target="_blank" className="block border-l border-gray-700 p-2 hover:bg-gray-700 hover:text-white rounded">Live</a> */}
+//make just the links a href instead of clicking on image
 
-  // {/* <a href={project.codeLink} aria-label="link to code" target="_blank" className="w-fit p-2 mb-1 hover:bg-gray-700 hover:text-white rounded">Code</a>
-  //             <div className="flex flex-wrap -m-4"> 
-  //          <a href={project.link} aria-label="link to site" target="_blank" className="block border-l border-gray-700 p-2 hover:bg-gray-700 hover:text-white rounded">Live</a> */}
-  
+//TODO: overlay on projects floats above nav bar & need to disable live button if not yet live
 const Projects = () => {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
@@ -83,34 +84,53 @@ const Projects = () => {
             solved a problem in my every day life, or were just really fun. I hope you enjoy them!
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
-         
-         
-          {projects.map((project, idx) => (
-            <a
-              href={project.link}
-              aria-label="link to live site with overlay description"
-              target="_blank"
-              key={project.image}
+        <div className="flex .h-full flex-wrap -m-4">
+          {projects.map(project => (
+            <div
               className="sm:w-1/2 w-100 p-4"
-            >
-              <div className="flex relative">
-                <img
-                  alt={project.title}
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={project.image}
-                />
-                <div className="sm:h-80 px-8 py-10 relative z-10 w-full border-4 text-text-color-proj bg-backround-proj backdrop-blur opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-secondary-500 mb-1">
-                    {project.subtitle}
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    {project.title}
-                  </h1>
-                  <p className="leading-relaxed">{project.description}</p>
+              key={project.title}>
+              <a
+                href={project.link}
+                aria-label="link to live site with overlay description"
+                target="_blank"
+              >
+                <div className="flex relative mb-1">
+                  <img
+                    alt={project.title}
+                    className="absolute inset-0 w-full h-full object-cover object-center"
+                    src={project.image}
+                  />
+                  <div className="sm:h-80 px-8 py-8 relative z-10 w-full border-4 text-text-color-proj bg-backround-proj backdrop-blur opacity-0 hover:opacity-100">
+                    <h2 className="tracking-widest text-sm title-font font-medium text-secondary-500 mb-1">
+                      {project.subtitle}
+                    </h2>
+                    <h1 className="title-font text-lg font-medium text-white mb-3">
+                      {project.title}
+                    </h1>
+                    <p className="leading-relaxed text-sm lg:text-base">{project.description}</p>
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
+              <span className="mt-3">
+                <a
+                  href={project.link}
+                  aria-label="link to site"
+                  target="_blank"
+                  className="w-fit border-r-2  border-gray-700 p-2 hover:bg-gray-700 hover:text-white rounded"
+                >
+                  Live
+                </a>
+
+                <a
+                  href={project.codeLink}
+                  aria-label="link to code"
+                  target="_blank"
+                  className="w-fit p-2 hover:bg-gray-700 hover:text-white rounded"
+                >
+                  Code
+                </a>
+              </span>
+            </div>
           ))}
         </div>
       </div>

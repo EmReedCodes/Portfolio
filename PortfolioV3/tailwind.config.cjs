@@ -13,6 +13,7 @@ module.exports = {
         'secondary-600': "#019592",
         'secondary-500': "#01A299",
         'secondary-800': "#017374",
+        'lighter-main' : '#2f426a',
         'easter-egg': "#001b64",
         'backround-proj': "#657d8988",
         'text-color-proj': "#111827"
