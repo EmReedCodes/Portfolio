@@ -24,7 +24,7 @@ export const projects = [
       "I know, a Todo app but it's more the collaboration in this that was my big milestone. This was a group project with a team of 5 using git in production. It's not just the code but the communication in combining our unique styles to a cohesive end product.",
     image: "./todoGroup.gif",
     link: "https://todo-celebrations.up.railway.app/",
-    codeLink:"https://github.com/EmReedCodes/todo-group-auth-local"
+    codeLink:"https://github.com/EmReedCodes/Todo-group-project"
   },
   {
     title: "Cat Breed Fun Fact",
