@@ -116,7 +116,7 @@ const Projects = () => {
                   href={project.link}
                   aria-label="link to site"
                   target="_blank"
-                  className="w-fit border-r-2  border-gray-700 p-2 hover:bg-gray-700 hover:text-white rounded"
+                  className="w-fit border-r-2  border-gray-700 p-2 hover:bg-gray-700 hover:text-white"
                 >
                   Live
                 </a>
@@ -125,7 +125,7 @@ const Projects = () => {
                   href={project.codeLink}
                   aria-label="link to code"
                   target="_blank"
-                  className="w-fit p-2 hover:bg-gray-700 hover:text-white rounded"
+                  className="w-fit p-2 hover:bg-gray-700 hover:text-white"
                 >
                   Code
                 </a>
