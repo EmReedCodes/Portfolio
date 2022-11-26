@@ -42,10 +42,12 @@ export const skills = [
   "Redux",
   "Mongoose",
   "MongoDB",
+  "GraphQL",
   "Express",
   "Node",
   "Javascript",
   "Web Accessibility",
+  "SASS",
   "CSS",
-  "SASS"
+  "HTML"
 ]
