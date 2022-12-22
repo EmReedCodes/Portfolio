@@ -2,7 +2,7 @@ import React from "react"
 import { projects } from "../data"
 import { FaCode } from "react-icons/fa"
 import { IconContext } from "react-icons"
-import { useLayoutEffect, useRef, useState } from "react"
+//import { useLayoutEffect, useRef, useState } from "react"
 
 // const ProjectGalleryItem = ({ project }) => {
 //   const targetRef = useRef()

@@ -3,9 +3,9 @@ export const projects = [
     title: "Parrot",
     subtitle: "React Redux JWT MongoDB TTS STT",
     description:
-      "IN PROGRESS - This is a continued work in progress not yet live. Well over 100 hours in and my passion has not yet fizzled. This web app that can help those with speech disabilties gain more confidence while having fun.",
+      "I've poured well over 100 hours into Parrot. This web app that can help those with speech disabilties gain more confidence while having fun.",
     image: "./parrotResized.gif",
-    link: "#",
+    link: "https://parrot-app-production.up.railway.app/",
     codeLink: "https://github.com/EmReedCodes/parrot-app"
   },
   {

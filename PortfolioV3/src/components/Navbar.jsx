@@ -30,7 +30,7 @@ const Navbar = () => {
           download
         >
           <IconContext.Provider
-            value={{ className: " text-secondary-500 w-6 h-6 flex-shrink-0 mr-1" }}
+            value={{ className: "text-secondary-500 w-6 h-6 flex-shrink-0 mr-1" }}
           >
             <FaFileDownload />
           </IconContext.Provider>
